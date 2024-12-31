@@ -1,8 +1,8 @@
 Name:           perl-SMS-Send-VoIP-MS
-Version:        0.03
+Version:        0.04
 Release:        1%{?dist}
 Summary:        SMS::Send driver for VoIP.ms Web Services
-License:        perl
+License:        mit
 Group:          Development/Libraries
 URL:            http://search.cpan.org/dist/SMS-Send-VoIP-MS/
 Source0:        http://www.cpan.org/modules/by-module/SMS/SMS-Send-VoIP-MS-%{version}.tar.gz
@@ -47,7 +47,7 @@ rm -rf $RPM_BUILD_ROOT
 
 %files
 %defattr(-,root,root,-)
-%doc Changes META.json README
+%doc Changes META.json README.md
 %{perl_vendorlib}/*
 %{_mandir}/man3/*
 %{_mandir}/man1/*
